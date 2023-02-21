@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c553d1c-a8b0-4e92-a7f2-7128927389e0" name="Changes" comment="Inicio">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lectura/CSV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lectura/Row.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lectura/CSVTest.java" afterDir="false" />
+    <list default="true" id="5c553d1c-a8b0-4e92-a7f2-7128927389e0" name="Changes" comment="Lectura de datos desde ficheros CSV v.1">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lectura/CSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lectura/CSV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lectura/Row.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lectura/Row.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lectura/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lectura/Table.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lectura/CSVTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lectura/CSVTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,17 +39,11 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -57,6 +51,29 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="lectura" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="CSVTest.testLectura" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="proyectoLab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lectura.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lectura" />
+      <option name="MAIN_CLASS_NAME" value="lectura.CSVTest" />
+      <option name="METHOD_NAME" value="testLectura" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CSVTest.testLectura" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -94,6 +111,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Inicio" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inicio" />
+    <MESSAGE value="Lectura de datos desde ficheros CSV v.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lectura de datos desde ficheros CSV v.1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/lectura/CSV.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
