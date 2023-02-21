@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c553d1c-a8b0-4e92-a7f2-7128927389e0" name="Changes" comment="Lectura de datos desde ficheros CSV v.1">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lectura/RowWithLabel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lectura/TableWithLabels.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lectura/CSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lectura/CSV.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lectura/Row.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lectura/Row.java" afterDir="false" />
@@ -20,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -52,7 +53,38 @@
       <recent name="lectura" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.CSVTest">
+    <configuration name="CSVTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="proyectoLab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lectura.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lectura" />
+      <option name="MAIN_CLASS_NAME" value="lectura.CSVTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CSVTest.a" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="proyectoLab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lectura.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lectura" />
+      <option name="MAIN_CLASS_NAME" value="lectura.CSVTest" />
+      <option name="METHOD_NAME" value="a" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CSVTest.testLectura" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="proyectoLab" />
       <extension name="coverage">
@@ -69,8 +101,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CSVTest.testReadingWithLabel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="proyectoLab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lectura.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lectura" />
+      <option name="MAIN_CLASS_NAME" value="lectura.CSVTest" />
+      <option name="METHOD_NAME" value="testReadingWithLabel" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CSVTest" />
+        <item itemvalue="JUnit.CSVTest.testReadingWithLabel" />
+        <item itemvalue="JUnit.CSVTest.a" />
         <item itemvalue="JUnit.CSVTest.testLectura" />
       </list>
     </recent_temporary>
@@ -92,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676982457201</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Lectura de datos desde ficheros CSV v.1">
+      <created>1676994323641</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676994323641</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,16 +171,5 @@
     <MESSAGE value="Inicio" />
     <MESSAGE value="Lectura de datos desde ficheros CSV v.1" />
     <option name="LAST_COMMIT_MESSAGE" value="Lectura de datos desde ficheros CSV v.1" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/lectura/CSV.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

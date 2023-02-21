@@ -7,7 +7,10 @@ public class Table {
     private List<String> headers;
     private List<Row> rows;
 
-    public Table() { super(); }
+    public Table() {
+        headers = new ArrayList<>();
+        rows = new ArrayList<>();
+    }
 
     public Table(List<String> atributos){
         headers = atributos;
@@ -15,11 +18,32 @@ public class Table {
     }
 
     public List<Double> getRowAt(int rowNumber){
-        return null;
+        return rows.get(rowNumber).getData();
     }
 
-    public boolean addRow(List<Double> fila){
-        return rows.add(new Row(fila));
+    public boolean addRow(String fila){
+        List<Double> datos = new ArrayList<>();
+        for (String dato: fila.split(",")) {
+            datos.add(Double.parseDouble(dato));
+        }
+        return rows.add(new Row(datos));
+    }
+
+
+    public int numberOfRows(){
+        return rows.size();
+    }
+
+    public int numberOfAttributes(){
+        return headers.size();
+    }
+
+    public List<String> getHeaders(){
+        return headers;
+    }
+
+    public List<Row> getRows(){
+        return rows;
     }
 
     public String toString(){
