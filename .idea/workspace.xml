@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c553d1c-a8b0-4e92-a7f2-7128927389e0" name="Changes" comment="Lectura de datos desde ficheros CSV v.1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lectura/RowWithLabel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lectura/TableWithLabels.java" afterDir="false" />
+    <list default="true" id="5c553d1c-a8b0-4e92-a7f2-7128927389e0" name="Changes" comment="Lectura de datos desde ficheros CSV v.2 (con Label)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lectura/CSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lectura/CSV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lectura/Row.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lectura/Row.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lectura/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lectura/Table.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lectura/CSVTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lectura/CSVTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lectura/RowWithLabel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lectura/RowWithLabel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lectura/TableWithLabels.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lectura/TableWithLabels.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676994323641</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Lectura de datos desde ficheros CSV v.2 (con Label)">
+      <created>1677020207952</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677020207952</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,6 +174,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Inicio" />
     <MESSAGE value="Lectura de datos desde ficheros CSV v.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lectura de datos desde ficheros CSV v.1" />
+    <MESSAGE value="Lectura de datos desde ficheros CSV v.2 (con Label)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lectura de datos desde ficheros CSV v.2 (con Label)" />
   </component>
 </project>

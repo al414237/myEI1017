@@ -1,17 +1,16 @@
 package lectura;
 
 import java.util.List;
-import java.util.Map;
 
 public class RowWithLabel extends Row {
-    private int numberClass;
+    private Double numberClass;
 
-    public RowWithLabel(List<Double> data, int labelNumber){
+    public RowWithLabel(List<Double> data){
         super(data);
-        numberClass = labelNumber;
+        numberClass = data.get( data.size() - 1);
     }
 
-    public int getNumberClass() {
+    public Double getNumberClass() {
         return numberClass;
     }
 }

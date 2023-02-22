@@ -27,8 +27,8 @@ public class TableWithLabels extends Table{
         List<Double> datos = new ArrayList<>();
         String clase = null;
         
-        for (int i=0; i<lista.size(); i++){
-                if ( i == lista.size() - 1 ){
+        for (int i = 0; i < lista.size(); i++){
+                if ( i == lista.size() - 1 ){ /* el último elemento de la lista es la etiqueta de class */
                     clase = lista.get(i);
                     if (!labelsToIndex.containsKey(clase)) {
                         labelsToIndex.put(clase, labelsToIndex.size());
@@ -38,6 +38,6 @@ public class TableWithLabels extends Table{
                     datos.add(Double.parseDouble(lista.get(i)));
                 }
         }
-        return getRows().add(new RowWithLabel(datos, labelsToIndex.get(clase)));
+        return getRows().add(new RowWithLabel(datos));
     }
 }
