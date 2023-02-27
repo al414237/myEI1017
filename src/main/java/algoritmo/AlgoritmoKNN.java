@@ -11,11 +11,6 @@ public class AlgoritmoKNN implements KNN{
 
     List<TableWithLabels> datosAprendidos = new ArrayList<>();
 
-    /**
-     * este método lo único que tiene que hacer es guardarse
-     * esta tabla para usarla después en la función estimate.
-     * @param data
-     */
     @Override
     public void train(TableWithLabels data) {
         datosAprendidos.add(data);
@@ -35,7 +30,7 @@ public class AlgoritmoKNN implements KNN{
         double claseDelMinimo = -1;
 
         for (TableWithLabels tabla: datosAprendidos){
-            if (sonMismoTamaño(tabla, data)){   /* cumprueba si la tabla concuerda con data */
+            if (sonMismoTamaño(tabla, data)){                               /* la tabla concuerda con data */
                 for (Row ejemplar: tabla.getRows()){
                     List<Double> dataEjemplar = ejemplar.getData();
                     double distanciaEjemplar = distanciaEuclidea(dataEjemplar, data);

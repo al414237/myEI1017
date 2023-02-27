@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c553d1c-a8b0-4e92-a7f2-7128927389e0" name="Changes" comment="Lectura de datos desde ficheros CSV v.2 (con Label)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/algoritmo/AlgoritmoKNN.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algoritmo/KNN.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/algoritmo/KNNTest.java" afterDir="false" />
+    <list default="true" id="5c553d1c-a8b0-4e92-a7f2-7128927389e0" name="Changes" comment="Algoritmo KNN v.1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algoritmo/AlgoritmoKNN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algoritmo/AlgoritmoKNN.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lectura/CSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lectura/CSV.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lectura/TableWithLabels.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lectura/TableWithLabels.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lectura/CSVTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lectura/LecturaTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="Implementación_del_algoritmo_KNN" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -197,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677070256049</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Algoritmo KNN v.1">
+      <created>1677458729201</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677458729201</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,6 +223,7 @@
     <MESSAGE value="Inicio" />
     <MESSAGE value="Lectura de datos desde ficheros CSV v.1" />
     <MESSAGE value="Lectura de datos desde ficheros CSV v.2 (con Label)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lectura de datos desde ficheros CSV v.2 (con Label)" />
+    <MESSAGE value="Algoritmo KNN v.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Algoritmo KNN v.1" />
   </component>
 </project>

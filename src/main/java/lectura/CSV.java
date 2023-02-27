@@ -21,9 +21,9 @@ public class CSV {
         }
         List<String> atributos = dividir(fila);
 
-        Table table = lastOf(atributos).equals("class") ?
-                      new TableWithLabels( atributos ):
-                      new Table( atributos );
+        Table table = lastOf(atributos).equals("class")
+                      ? new TableWithLabels( atributos )
+                      : new Table( atributos );
 
         while ( ( fila = fichero.readLine() ) != null ){
             table.addRow(fila);

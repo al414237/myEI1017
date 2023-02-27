@@ -29,7 +29,7 @@ public class TableWithLabels extends Table{
         String clase = null;
         
         for (int i = 0; i < lista.size(); i++){
-                if ( i == lista.size() - 1 ){ /* el último elemento de la lista es la etiqueta de class */
+                if ( i == lista.size() - 1 ){           /* etiqueta de class */
                     clase = lista.get(i);
                     if (!labelsToIndex.containsKey(clase)) {
                         labelsToIndex.put(clase, labelsToIndex.size());
