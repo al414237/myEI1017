@@ -9,6 +9,7 @@ import java.util.Map;
 public class TableWithLabels extends Table{
     Map<String, Integer> labelsToIndex = new HashMap<>();
 
+    public TableWithLabels() {super(); }
     public TableWithLabels(List<String> atributos){
         super(atributos);
     }
@@ -39,5 +40,10 @@ public class TableWithLabels extends Table{
                 }
         }
         return getRows().add(new RowWithLabel(datos));
+    }
+
+    @Override
+    public List<Row> getRows() {
+        return super.getRows();
     }
 }

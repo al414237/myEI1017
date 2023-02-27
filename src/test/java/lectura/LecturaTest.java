@@ -8,7 +8,7 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class CSVTest {
+class LecturaTest {
     final String RUTA = System.getProperty("user.dir") + "\\src\\main\\java\\archivos\\";
 
     @Test
