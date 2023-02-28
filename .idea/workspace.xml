@@ -80,7 +80,7 @@
       <command value="data" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TablaTest.testLabel">
+  <component name="RunManager" selected="JUnit.TableTest">
     <configuration name="DistanceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="proyectoLab" />
       <extension name="coverage">
@@ -111,7 +111,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TablaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TableTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="proyectoLab" />
       <extension name="coverage">
         <pattern>
@@ -120,13 +120,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="lectura" />
-      <option name="MAIN_CLASS_NAME" value="lectura.TablaTest" />
+      <option name="MAIN_CLASS_NAME" value="lectura.TableTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TablaTest.testDataWithoutLabel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TableTest.testLabel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="proyectoLab" />
       <extension name="coverage">
         <pattern>
@@ -135,36 +135,35 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="lectura" />
-      <option name="MAIN_CLASS_NAME" value="lectura.TablaTest" />
-      <option name="METHOD_NAME" value="testDataWithoutLabel" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TablaTest.testLabel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="proyectoLab" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lectura.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lectura" />
-      <option name="MAIN_CLASS_NAME" value="lectura.TablaTest" />
+      <option name="MAIN_CLASS_NAME" value="lectura.TableTest" />
       <option name="METHOD_NAME" value="testLabel" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TableWithLabelsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="proyectoLab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lectura.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lectura" />
+      <option name="MAIN_CLASS_NAME" value="lectura.TableWithLabelsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TablaTest.testLabel" />
-        <item itemvalue="JUnit.TablaTest.testDataWithoutLabel" />
-        <item itemvalue="JUnit.TablaTest" />
-        <item itemvalue="JUnit.DistanceTest" />
+        <item itemvalue="JUnit.TableTest" />
+        <item itemvalue="JUnit.TableWithLabelsTest" />
         <item itemvalue="JUnit.EstimateTest" />
+        <item itemvalue="JUnit.DistanceTest" />
+        <item itemvalue="JUnit.TableTest.testLabel" />
       </list>
     </recent_temporary>
   </component>
