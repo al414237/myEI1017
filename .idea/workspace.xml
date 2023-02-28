@@ -4,16 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c553d1c-a8b0-4e92-a7f2-7128927389e0" name="Changes" comment="Algoritmo KNN v.1">
+    <list default="true" id="5c553d1c-a8b0-4e92-a7f2-7128927389e0" name="Changes" comment="Algoritmo KNN v.2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/archivos/testLabel.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/algoritmo/EstimateTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algoritmo/AlgoritmoKNN.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/algoritmo/KNN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algoritmo/KNN.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lectura/CSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lectura/CSV.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lectura/Row.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lectura/Row.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lectura/RowWithLabel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lectura/RowWithLabel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lectura/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lectura/Table.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lectura/TableWithLabels.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lectura/TableWithLabels.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lectura/LecturaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lectura/LecturaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/algoritmo/KNNTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/algoritmo/DistanceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lectura/LecturaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lectura/TablaTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,12 +40,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/main/java/algoritmo/KNN.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/algoritmo/DistanceTest.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/lectura/Row.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/algoritmo/KNN.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/lectura/RowWithLabel.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/lectura/Table.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/lectura/TableWithLabels.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/test/java/algoritmo/KNNTest.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/lectura/Table.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -56,15 +58,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/al414237/Documents/GitHub/myEI1017"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/archivos" />
+  </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Jose Sancho\Documents\TRABAJOS\CLASE\UNI\EI1017\Laboratorio\proyectoLab\src\main\java\archivos" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -73,92 +75,96 @@
       <recent name="lectura" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LecturaTest">
-    <configuration name="CSVTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="data" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.TablaTest.testLabel">
+    <configuration name="DistanceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="proyectoLab" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lectura.*" />
+          <option name="PATTERN" value="algoritmo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lectura" />
-      <option name="MAIN_CLASS_NAME" value="lectura.CSVTest" />
+      <option name="PACKAGE_NAME" value="algoritmo" />
+      <option name="MAIN_CLASS_NAME" value="algoritmo.DistanceTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CSVTest.a" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EstimateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="proyectoLab" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lectura.*" />
+          <option name="PATTERN" value="algoritmo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lectura" />
-      <option name="MAIN_CLASS_NAME" value="lectura.CSVTest" />
-      <option name="METHOD_NAME" value="a" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CSVTest.testLectura" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="proyectoLab" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lectura.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lectura" />
-      <option name="MAIN_CLASS_NAME" value="lectura.CSVTest" />
-      <option name="METHOD_NAME" value="testLectura" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CSVTest.testReadingWithLabel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="proyectoLab" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lectura.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lectura" />
-      <option name="MAIN_CLASS_NAME" value="lectura.CSVTest" />
-      <option name="METHOD_NAME" value="testReadingWithLabel" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LecturaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myEI1017" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lectura.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lectura" />
-      <option name="MAIN_CLASS_NAME" value="lectura.LecturaTest" />
+      <option name="PACKAGE_NAME" value="algoritmo" />
+      <option name="MAIN_CLASS_NAME" value="algoritmo.EstimateTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TablaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="proyectoLab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lectura.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lectura" />
+      <option name="MAIN_CLASS_NAME" value="lectura.TablaTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TablaTest.testDataWithoutLabel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="proyectoLab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lectura.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lectura" />
+      <option name="MAIN_CLASS_NAME" value="lectura.TablaTest" />
+      <option name="METHOD_NAME" value="testDataWithoutLabel" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TablaTest.testLabel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="proyectoLab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lectura.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lectura" />
+      <option name="MAIN_CLASS_NAME" value="lectura.TablaTest" />
+      <option name="METHOD_NAME" value="testLabel" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LecturaTest" />
-        <item itemvalue="JUnit.CSVTest.testReadingWithLabel" />
-        <item itemvalue="JUnit.CSVTest.testLectura" />
-        <item itemvalue="JUnit.CSVTest.a" />
-        <item itemvalue="JUnit.CSVTest" />
+        <item itemvalue="JUnit.TablaTest.testLabel" />
+        <item itemvalue="JUnit.TablaTest.testDataWithoutLabel" />
+        <item itemvalue="JUnit.TablaTest" />
+        <item itemvalue="JUnit.DistanceTest" />
+        <item itemvalue="JUnit.EstimateTest" />
       </list>
     </recent_temporary>
   </component>
@@ -230,31 +236,7 @@
     <MESSAGE value="Lectura de datos desde ficheros CSV v.1" />
     <MESSAGE value="Lectura de datos desde ficheros CSV v.2 (con Label)" />
     <MESSAGE value="Algoritmo KNN v.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Algoritmo KNN v.1" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/algoritmo/KNN.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/lectura/Row.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/lectura/Table.java</url>
-          <line>40</line>
-          <properties class="lectura.Table" method="getRows">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Algoritmo KNN v.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Algoritmo KNN v.2" />
   </component>
 </project>

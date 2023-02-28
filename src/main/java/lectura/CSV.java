@@ -15,6 +15,7 @@ public class CSV {
         if (fila == null){
             throw new NullPointerException();
         }
+
         Table table = new Table( dividir(fila) );
 
         while ( ( fila = fichero.readLine() ) != null ){
@@ -49,9 +50,7 @@ public class CSV {
                     table.addRow(numeros, clase);
                 }
             }
-
         }
-
         return table;
     }
 

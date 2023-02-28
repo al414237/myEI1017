@@ -3,24 +3,20 @@ package algoritmo;
 import lectura.RowWithLabel;
 import lectura.TableWithLabels;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class KNN {
-
-    List<RowWithLabel> datosAprendidos = new ArrayList<>();
-
+    private TableWithLabels datosAprendidos;
 
     public void train(TableWithLabels data) {
-        // SÍ datosAprendidos = data;
-//        NO datosAprendidos.addAll(data.getRows());
+        datosAprendidos = data;
     }
 
     public Integer estimate(List<Double> data) {
         double distanciaMinima = Double.POSITIVE_INFINITY;
         int claseDelMinimo = -1;
 
-        for (RowWithLabel ejemplar: datosAprendidos){
+        for (RowWithLabel ejemplar: datosAprendidos.getRows()){
             List<Double> dataEjemplar = ejemplar.getData();
             double distanciaEjemplar = distanciaEuclidea(dataEjemplar, data);
 
@@ -33,9 +29,9 @@ public class KNN {
         return claseDelMinimo;
     }
 
-    private double distanciaEuclidea(List<Double> dataEjemplar, List<Double> data) {
+    public double distanciaEuclidea(List<Double> dataEjemplar, List<Double> data) {
         double distanciaActual = 0;
-        for (int index = 0; index<data.size(); index++){
+        for (int index = 0; index < data.size(); index++){
             distanciaActual += Math.pow(dataEjemplar.get(index) - data.get(index), 2);
         }
         return Math.sqrt(distanciaActual);

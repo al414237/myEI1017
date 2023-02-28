@@ -3,22 +3,17 @@ package lectura;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Table<T> {
+public class Table {
     private List<String> headers;
     private List<Row> rows;
-
-    public Table() {
-        headers = new ArrayList<>();
-        rows = new ArrayList<>();
-    }
 
     public Table(List<String> atributos){
         headers = atributos;
         rows = new ArrayList<>();
     }
 
-    public List<Double> getRowAt(int rowNumber){
-        return rows.get(rowNumber).getData();
+    public Row getRowAt(int rowNumber){
+        return rows.get(rowNumber);
     }
 
     public boolean addRow(List<Double> datos){
@@ -38,8 +33,8 @@ public class Table<T> {
         return headers;
     }
 
-    public List< Row > getRows(){
-        return rows;
+    public <T extends Row> List<T> getRows(){
+        return (List<T>) rows;
     }
 
 }

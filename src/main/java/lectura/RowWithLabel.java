@@ -5,13 +5,10 @@ import java.util.List;
 public class RowWithLabel extends Row {
     private int numberClass;
 
-    public RowWithLabel(List<Double> data){ //añadir argumento de Int clase
+    public RowWithLabel(List<Double> data, int numeroClase){
         super(data);
-        numberClass = ultimoValor(data);;
-    }
-
-    private int ultimoValor(List<Double> data) {
-        return (int) Math.round(data.get( data.size() - 1));
+        numberClass = numeroClase;
+        data.add( (double) numberClass );
     }
 
     public Integer getNumberClass() {
