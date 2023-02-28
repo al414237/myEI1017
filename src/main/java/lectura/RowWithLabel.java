@@ -3,14 +3,18 @@ package lectura;
 import java.util.List;
 
 public class RowWithLabel extends Row {
-    private Double numberClass;
+    private int numberClass;
 
-    public RowWithLabel(List<Double> data){
+    public RowWithLabel(List<Double> data){ //añadir argumento de Int clase
         super(data);
-        numberClass = data.get( data.size() - 1);
+        numberClass = ultimoValor(data);;
     }
 
-    public Double getNumberClass() {
+    private int ultimoValor(List<Double> data) {
+        return (int) Math.round(data.get( data.size() - 1));
+    }
+
+    public Integer getNumberClass() {
         return numberClass;
     }
 }

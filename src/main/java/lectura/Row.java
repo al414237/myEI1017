@@ -14,11 +14,4 @@ public class Row {
         return data;
     }
 
-    @Override
-    public String toString() {
-        StringBuilder cadena = new StringBuilder();
-        for (Double num: data)
-            cadena.append(num+"\t");
-        return cadena.toString();
-    }
 }

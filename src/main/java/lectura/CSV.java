@@ -3,39 +3,56 @@ package lectura;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 
 public class CSV {
 
-    /**
-     * Lee el fichero que se le pasa como parámetro y crea una tabla a partir de los datos leídos en cada fila.
-     * @param nombreFichero Nombre del fichero que se va a leer
-     * @return Tabla del tipo Table
-     */
     public Table readTable(String nombreFichero) throws IOException {
         BufferedReader fichero = new BufferedReader(new FileReader(nombreFichero));
-
         String fila = fichero.readLine();
+
         if (fila == null){
             throw new NullPointerException();
         }
-        List<String> atributos = dividir(fila);
-
-        Table table = lastOf(atributos).equals("class")
-                      ? new TableWithLabels( atributos )
-                      : new Table( atributos );
+        Table table = new Table( dividir(fila) );
 
         while ( ( fila = fichero.readLine() ) != null ){
-            table.addRow(fila);
+            List<Double> datos = new ArrayList<>();
+            for (String dato: dividir(fila)) {
+                datos.add(Double.parseDouble(dato));
+            }
+            table.addRow(datos);
+        }
 
-            /**
-             *  El profe me había dicho que mejor si le pasamos la lista hecha,
-             *  pero no me sale a cuenta para tratar con las CSV con label
-             */
+        return table;
+    }
+
+    public TableWithLabels readTableWithLabels(String nombreFichero) throws IOException {
+        BufferedReader fichero = new BufferedReader(new FileReader(nombreFichero));
+        String fila = fichero.readLine();
+
+        if (fila == null){
+            throw new NullPointerException();
+        }
+
+        TableWithLabels table = new TableWithLabels( dividir(fila) );
+
+        while ( ( fila = fichero.readLine() ) != null ){
+            List<Double> numeros = new ArrayList<>();
+            List<String> filaDividida = dividir(fila);
+            for (String dato: filaDividida) {
+                if ( ! dato.equals( lastOf(filaDividida) ) ){
+                    numeros.add(Double.parseDouble(dato));
+                } else {
+                    String clase = dato;
+                    table.addRow(numeros, clase);
+                }
+            }
 
         }
-        return table;
 
+        return table;
     }
 
     private String lastOf(List<String> list) {

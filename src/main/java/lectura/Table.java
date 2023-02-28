@@ -3,7 +3,7 @@ package lectura;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Table {
+public class Table<T> {
     private List<String> headers;
     private List<Row> rows;
 
@@ -21,11 +21,7 @@ public class Table {
         return rows.get(rowNumber).getData();
     }
 
-    public boolean addRow(String fila){
-        List<Double> datos = new ArrayList<>();
-        for (String dato: fila.split(",")) {
-            datos.add(Double.parseDouble(dato));
-        }
+    public boolean addRow(List<Double> datos){
         return rows.add(new Row(datos));
     }
 
@@ -42,21 +38,8 @@ public class Table {
         return headers;
     }
 
-    public List<Row> getRows(){
+    public List< Row > getRows(){
         return rows;
     }
 
-    public String toString(){
-        StringBuilder cadena = new StringBuilder();
-        for (String attribute: headers) {
-            cadena.append(attribute + "\t");
-        }
-        cadena.append("\n");
-
-        for (Row row: rows){
-            cadena.append(row+"\n");
-        }
-
-        return cadena.toString();
-    }
 }
