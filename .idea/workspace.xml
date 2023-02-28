@@ -4,18 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c553d1c-a8b0-4e92-a7f2-7128927389e0" name="Changes" comment="Algoritmo KNN v.2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/archivos/testLabel.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/algoritmo/EstimateTest.java" afterDir="false" />
+    <list default="true" id="5c553d1c-a8b0-4e92-a7f2-7128927389e0" name="Changes" comment="practica 1 v.1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algoritmo/KNN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algoritmo/KNN.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lectura/CSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lectura/CSV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lectura/Row.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lectura/Row.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lectura/RowWithLabel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lectura/RowWithLabel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lectura/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lectura/Table.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lectura/TableWithLabels.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lectura/TableWithLabels.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/algoritmo/KNNTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/algoritmo/DistanceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lectura/LecturaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lectura/TablaTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,13 +64,16 @@
       <recent name="algoritmo" />
       <recent name="lectura" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lectura" />
+    </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="data" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TableTest">
+  <component name="RunManager" selected="JUnit.TableWithLabelsTest">
     <configuration name="DistanceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="proyectoLab" />
       <extension name="coverage">
@@ -159,8 +152,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TableTest" />
         <item itemvalue="JUnit.TableWithLabelsTest" />
+        <item itemvalue="JUnit.TableTest" />
         <item itemvalue="JUnit.EstimateTest" />
         <item itemvalue="JUnit.DistanceTest" />
         <item itemvalue="JUnit.TableTest.testLabel" />
@@ -213,7 +206,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677458729201</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="practica 1 v.1">
+      <created>1677619451516</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677619451516</updated>
+    </task>
+    <task id="LOCAL-00007" summary="practica 1 v.1">
+      <created>1677619649328</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1677619649328</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,6 +243,7 @@
     <MESSAGE value="Lectura de datos desde ficheros CSV v.2 (con Label)" />
     <MESSAGE value="Algoritmo KNN v.1" />
     <MESSAGE value="Algoritmo KNN v.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Algoritmo KNN v.2" />
+    <MESSAGE value="practica 1 v.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="practica 1 v.1" />
   </component>
 </project>

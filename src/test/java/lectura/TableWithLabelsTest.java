@@ -9,7 +9,7 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class TableWithLabelsTest {
-    final String RUTA = System.getProperty("user.dir") + "\\src\\main\\java\\archivos\\";
+    final String RUTA = System.getProperty("user.dir") + "\\archivos\\";
 
     @Test
     @DisplayName("Test del numero de filas con etiqueta")
