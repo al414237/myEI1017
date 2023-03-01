@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5c553d1c-a8b0-4e92-a7f2-7128927389e0" name="Changes" comment="practica 1 v.1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lectura/CSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lectura/CSV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/algoritmo/EstimateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/algoritmo/EstimateTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +62,9 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Jose Sancho\Documents\TRABAJOS\CLASE\UNI\EI1017\Laboratorio\proyectoLab" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="algoritmo" />
       <recent name="lectura" />
@@ -73,22 +78,7 @@
       <command value="data" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TableWithLabelsTest">
-    <configuration name="DistanceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="proyectoLab" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algoritmo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="algoritmo" />
-      <option name="MAIN_CLASS_NAME" value="algoritmo.DistanceTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.lectura in proyectoLab">
     <configuration name="EstimateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="proyectoLab" />
       <extension name="coverage">
@@ -119,22 +109,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TableTest.testLabel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="proyectoLab" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lectura.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lectura" />
-      <option name="MAIN_CLASS_NAME" value="lectura.TableTest" />
-      <option name="METHOD_NAME" value="testLabel" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TableWithLabelsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="proyectoLab" />
       <extension name="coverage">
@@ -150,13 +124,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="algoritmo in proyectoLab" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="proyectoLab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algoritmo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="algoritmo" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lectura in proyectoLab" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="proyectoLab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lectura.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lectura" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.lectura in proyectoLab" />
+        <item itemvalue="JUnit.algoritmo in proyectoLab" />
         <item itemvalue="JUnit.TableWithLabelsTest" />
         <item itemvalue="JUnit.TableTest" />
         <item itemvalue="JUnit.EstimateTest" />
-        <item itemvalue="JUnit.DistanceTest" />
-        <item itemvalue="JUnit.TableTest.testLabel" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677619649328</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="practica 1 v.1">
+      <created>1677620293104</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1677620293104</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

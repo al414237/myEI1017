@@ -25,6 +25,7 @@ public class CSV {
             }
             table.addRow(datos);
         }
+        fichero.close();
 
         return table;
     }
@@ -51,6 +52,8 @@ public class CSV {
                 }
             }
         }
+        fichero.close();
+
         return table;
     }
 
