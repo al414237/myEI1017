@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5c553d1c-a8b0-4e92-a7f2-7128927389e0" name="Changes" comment="practica 1 v.1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lectura/CSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lectura/CSV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/algoritmo/DistanceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/algoritmo/DistanceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/algoritmo/EstimateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/algoritmo/EstimateTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -229,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677620293104</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="practica 1 v.1">
+      <created>1677713245040</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1677713245040</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

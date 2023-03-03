@@ -23,7 +23,7 @@ class DistanceTest {
 
     @Test
     @DisplayName("Calcular distancia de lista con ceros")
-    void testZero() {
+    void testWithZero() {
         KNN algoritmo = new KNN();
 
         List<Double> list1 = new ArrayList<>();
@@ -38,7 +38,7 @@ class DistanceTest {
 
     @Test
     @DisplayName("Calcular distancia de lista con sumas negativas")
-    void testNegative() {
+    void testWithNegative() {
         KNN algoritmo = new KNN();
 
         List<Double> list1 = new ArrayList<>();
@@ -53,7 +53,7 @@ class DistanceTest {
 
     @Test
     @DisplayName("Calcular distancia de dos listas cualesquiera")
-    void testExample() {
+    void testCasoGenerico() {
         KNN algoritmo = new KNN();
 
         List<Double> list1 = new ArrayList<>();

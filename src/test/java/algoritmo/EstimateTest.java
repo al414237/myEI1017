@@ -17,7 +17,7 @@ class EstimateTest {
 
     @Test
     @DisplayName("Estimar clase con coincidencia exacta")
-    void testExact1() throws IOException {
+    void testCoincideEjemplar() throws IOException {
         KNN algoritmoKNN = new KNN();
         CSV csv = new CSV();
         TableWithLabels tabla = csv.readTableWithLabels(RUTA + "iris.csv");
@@ -34,7 +34,7 @@ class EstimateTest {
 
     @Test
     @DisplayName("Estimar clase con coincidencia semejante")
-    void testAproximate() throws IOException {
+    void testConDatosCercanos() throws IOException {
         KNN algoritmoKNN = new KNN();
         CSV csv = new CSV();
         TableWithLabels tabla = csv.readTableWithLabels(RUTA + "iris.csv");
@@ -51,7 +51,7 @@ class EstimateTest {
 
     @Test
     @DisplayName("Estimar clase con poca semejanza")
-    void testFar() throws IOException {
+    void testConDatosAlejados() throws IOException {
         KNN algoritmoKNN = new KNN();
         CSV csv = new CSV();
         TableWithLabels tabla = csv.readTableWithLabels(RUTA + "iris.csv");
@@ -68,7 +68,7 @@ class EstimateTest {
 
     @Test
     @DisplayName("Estimar clase con un caso controlado")
-    void testDifficult() throws IOException {
+    void testConDatosIntermedios() throws IOException {
         KNN algoritmoKNN = new KNN();
         CSV csv = new CSV();
         TableWithLabels tabla = csv.readTableWithLabels(RUTA + "testLabel.csv");
