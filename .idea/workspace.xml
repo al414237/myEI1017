@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c553d1c-a8b0-4e92-a7f2-7128927389e0" name="Changes" comment="practica 1 v.1">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algoritmo/Kmeans.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/algoritmo/DistanceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/algoritmo/DistanceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/algoritmo/EstimateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/algoritmo/EstimateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algoritmo/KNN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algoritmo/KNN.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lectura/TableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lectura/TableTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -32,12 +34,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/test/java/algoritmo/DistanceTest.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/lectura/Row.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/algoritmo/KNN.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/lectura/Row.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/lectura/RowWithLabel.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/lectura/TableWithLabels.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/lectura/Table.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/lectura/TableWithLabels.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/algoritmo/DistanceTest.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -50,11 +52,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/archivos" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/al414237/Documents/GitHub/practicas"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Jose Sancho\Documents\TRABAJOS\CLASE\UNI\EI1017\Laboratorio\proyectoLab\src\main\java\archivos" />
@@ -172,6 +178,7 @@
       <updated>1676982170711</updated>
       <workItem from="1676982175727" duration="3753000" />
       <workItem from="1677588116800" duration="3915000" />
+      <workItem from="1678191907174" duration="3538000" />
     </task>
     <task id="LOCAL-00001" summary="Inicio">
       <created>1676982457201</created>

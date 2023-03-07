@@ -6,17 +6,17 @@ import lectura.TableWithLabels;
 import java.util.List;
 
 public class KNN {
-    private TableWithLabels datosAprendidos;
+    private TableWithLabels trainingData;
 
     public void train(TableWithLabels data) {
-        datosAprendidos = data;
+        trainingData = data;
     }
 
     public Integer estimate(List<Double> data) {
         double distanciaMinima = Double.POSITIVE_INFINITY;
         int claseDelMinimo = -1;
 
-        for (RowWithLabel ejemplar: datosAprendidos.getRows()){
+        for (RowWithLabel ejemplar: trainingData.getRows()){ // DEJAR DE USAR GETrows y usar getRowAt
             List<Double> dataEjemplar = ejemplar.getData();
             double distanciaEjemplar = distanciaEuclidea(dataEjemplar, data);
 

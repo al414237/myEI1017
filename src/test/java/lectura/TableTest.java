@@ -9,7 +9,9 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.*;
 
 class TableTest {
-    final String RUTA = System.getProperty("user.dir") + "\\archivos\\";
+    final String sep = System.getProperty("separator");
+    final String RUTA = System.getProperty("user.dir") + sep + "archivos\\";
+
 
     @Test
     @DisplayName("Test del numero de filas")
