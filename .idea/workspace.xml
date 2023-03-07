@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c553d1c-a8b0-4e92-a7f2-7128927389e0" name="Changes" comment="practica 1 v.1">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algoritmo/Kmeans.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algoritmo/KNN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algoritmo/KNN.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lectura/TableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lectura/TableTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="5c553d1c-a8b0-4e92-a7f2-7128927389e0" name="Changes" comment="practica 2 clustering" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -178,7 +172,7 @@
       <updated>1676982170711</updated>
       <workItem from="1676982175727" duration="3753000" />
       <workItem from="1677588116800" duration="3915000" />
-      <workItem from="1678191907174" duration="3538000" />
+      <workItem from="1678191907174" duration="3601000" />
     </task>
     <task id="LOCAL-00001" summary="Inicio">
       <created>1676982457201</created>
@@ -243,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677713245040</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="practica 2 clustering">
+      <created>1678195492384</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1678195492384</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,6 +268,7 @@
     <MESSAGE value="Algoritmo KNN v.1" />
     <MESSAGE value="Algoritmo KNN v.2" />
     <MESSAGE value="practica 1 v.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="practica 1 v.1" />
+    <MESSAGE value="practica 2 clustering" />
+    <option name="LAST_COMMIT_MESSAGE" value="practica 2 clustering" />
   </component>
 </project>
